@@ -1,19 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Services from "./components/Services";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import React from "react";
+import About from "./anothercomponents/About";
+import Technology from "./anothercomponents/Technology";
+import Footer from "./anothercomponents/Footer";
 
 function App() {
   return (
     <>
-      <About />
-      <Services />
-      <Blog />
-      <Contact />
+      <div className="bg-slate-100">
+        <About />
+        <Technology />
+        <Footer />
+      </div>
     </>
   );
 }
