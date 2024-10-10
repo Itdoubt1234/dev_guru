@@ -6,10 +6,6 @@ import img3 from "../assets/img/image (2).png";
 const About = () => {
   return (
     <div className="">
-      <h2 className=" text-center text-base text-blue-950  font-extrabold tracking-wide sm:text-4xl ">
-        About Us
-      </h2>
-
       <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-6 md:mb-0 ">
           <img
